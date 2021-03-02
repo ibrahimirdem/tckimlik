@@ -1,4 +1,4 @@
-tcno = raw_input("TC Kimlik No Ilk 9 Hanesini Giriniz:")
+tcno = input("TC Kimlik No İlk 9 Hanesini Giriniz: ")
 a, b, toplamDokuz = 0, 0, 0
 for i in range(9):
     toplamDokuz = toplamDokuz+int(tcno[i])
@@ -9,4 +9,4 @@ for i in range(9):
     if i == 8:
         haneOn = (a-b)%10
         haneOnBir = (haneOn+toplamDokuz)%10
-        print tcno+str(haneOn)+str(haneOnBir)
+        print(tcno+str(haneOn)+str(haneOnBir))
