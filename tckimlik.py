@@ -30,10 +30,10 @@ def tcno(tcno):
         #En son olarak ilk 9 hane 10. hane ve 11. haneyi birlestirip cikti veriyoruz
         return tcno+str(haneOn)+str(haneOnBir)
     else:
-        print "Girilen TC No 9 Haneli Olmalidir."
+        print("Girilen TC No 9 Haneli Olmalýdýr.")
 
 
 #raw_input ile ilk 9 haneyi kullanicidan aliyoruz.
-tcnumara = raw_input("TC Kimlik No Ilk 9 Hanesini Giriniz:")
+tcnumara = input("TC Kimlik No Ýlk 9 Hanesini Giriniz: ")
 #Daha sonra burada tcno() fonk. icine bu numarayi atayip ciktiyi aliyoruz.
-print "TC Kimlik No'nun Tamami :",tcno(tcnumara)
+print("TC Kimlik No'nun Tamamý :",tcno(tcnumara))
